@@ -1,3 +1,4 @@
+# to see querstion => https://programmers.co.kr/learn/courses/30/lessons/12901?language=python3
 def solution(a, b):
     '''
     나눠서 나머지가
