@@ -1,3 +1,4 @@
+#view quiz: https://programmers.co.kr/learn/courses/30/lessons/12918?language=python3
 def solution(s):
     pureNum=[0,1,2,3,4,5,6,7,8,9]
     pureNumCount =0 #순수 숫자 개수
