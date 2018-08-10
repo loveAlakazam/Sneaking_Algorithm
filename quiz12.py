@@ -1,7 +1,7 @@
 # https://programmers.co.kr/learn/courses/30/lessons/12916?language=python3
 def solution(s):
     #문자열 s의 길이는 50이하의 자연수인가?
-    if len(s)<=50:
+    #if len(s)<=50:
         yNum,pNum=0,0
         #문자열 s는 알파벳으로만 이루어져있는가?
         if s.isalpha()==True:
