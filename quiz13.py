@@ -1,4 +1,5 @@
 # -*- encoding:utf-8 -*-
+# https://programmers.co.kr/learn/courses/30/lessons/12915
 def isAlphabet(strings): 
     alphabetCount=0
     for i in strings:
