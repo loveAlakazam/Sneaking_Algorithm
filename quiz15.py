@@ -15,3 +15,10 @@ def solution(s):
     answer=lower+upper #소문자>대문자
     answer=''.join(answer) #리스트=>문자열
     return answer
+
+
+''' 
+# best answer
+def solution(s):
+    return ''.join(sorted(s, reverse=True))
+'''
