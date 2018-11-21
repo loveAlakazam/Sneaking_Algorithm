@@ -1,3 +1,4 @@
+# https://programmers.co.kr/learn/courses/30/lessons/12930?language=python3
 def solution(s):
     a = list(s)
     r=-1
