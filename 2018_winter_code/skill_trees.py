@@ -23,3 +23,18 @@ def solution(skill, skill_trees):
         if a==1:#오름차순으로 되어있으면 answer 값에 +1한다.
             answer+=1
     return answer
+'''
+skill="CBD" 
+
+skill_trees= [ 'BACDE', 'CBADF', 'AECB, 'BDA' ]
+
+skill_indexs =[ 스킬 C의 인덱스번호, 스킬 B의 인덱스번호, 스킬 D의 인덱스번호 ]
+C-> B -> D 순으로 나열되어야한다.
+
+tree라는 문자열은 skill_trees의 원소를 의미한다.
+
+tree= 'BACDE'일때 --> skill_indexs=[ 2, 0, 3 ] => 오름차순 정렬([0, 2, 3])이 아니므로 answer값 카운트 x
+tree= 'CBADF'일때 --> skill_indexs=[ 0, 1, 3 ] => 오름차순 정렬([0, 1, 3])과 일치하므로 answer값 카운트 o
+tree= 'AECB' 일때 --> skill_indexs=[ 2, 3, 4(존재하지않으면 tree문자열의 길이를 넣는다)] => 오름차순 정렬([2,3,4])와 일치-> answer값 카운트ㅇ
+tree= 'BDA'  일때 --> skill_indexs=[ 3, 0, 1] ==> 오름차순 정렬([0,1,3])과 일치하지 않으므로 answer값 카운트 x
+'''
