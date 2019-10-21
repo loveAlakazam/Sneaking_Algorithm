@@ -1,3 +1,4 @@
+# 테스트케이스 1번에서 시간초과뜸.. 도대체 이유가 뭘까...ㅠ?
 def solution(arrangement):
     len_arrangement=len(arrangement)
     if len_arrangement==0:
