@@ -1,3 +1,4 @@
+#해시테이블로 풀었는데.... 정답률이.. 15개중 3개 맞췄네..ㅠ
 def solution(genres, plays):
     # 1.
     # genres=["classic", "pop", "pop", "jazz"]
