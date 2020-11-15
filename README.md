@@ -1,8 +1,9 @@
 # 남몰래 알고리즘 
 
-- [Programmers](./프로그래머스)
-- [BOJ](./백준)
-- [LeetCode](./리트코드)
+- [Programmers](./남몰래알고리즘/프로그래머스)
+- [BOJ](./남몰래알고리즘/백준)
+- [LeetCode](./남몰래알고리즘/리트코드)
+  - [내가 그동안 푼 리트코드 문제들](https://github.com/loveAlakazam/leetcode)
 
 <hr>
 
